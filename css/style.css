@@ -1,0 +1,129 @@
+input{
+    width: 470px;
+    height: 60px;
+}
+p{
+    color:#fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 55px;
+}
+
+h3{
+    margin-left: 20px;
+    color: #fff;
+
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.info{
+    margin-left: 20px;
+    color: rgb(109, 108, 108);
+    font-size: 15px;
+    background-color:transparent !important;
+    border: none !important;
+}
+.header{
+    background-color: #350479; /* ou3700EE*/
+    width: 100%;
+    height: 74;
+    padding: none;   
+    margin: none;
+}
+.button_header{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 2px;
+
+}
+.button_header:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+.sing_in{
+    width:156;
+    height:40;
+    background-color: #aa6df3;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.sing_in:hover{
+    width:156;
+    height:40;
+    background-color: #bb86fc;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.login{
+    width:156;
+    height:40;
+    background-color: #6200EE;
+    color: #fff;
+    align-items: right;
+    border: none;
+    padding: 0%;
+    margin-top: 0%;
+    font-family: 'Poppins', sans-serif;
+    
+ 
+}
+.login:hover{ 
+    width:156;
+    height:40;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+
+}
+body{
+    background-color: rgb(41, 40, 43);
+    width: 100%;
+}
+.background_img{
+  
+    background-image: url("../image/background.jpeg");
+    height:300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 7px;
+}
+.profile{
+    padding-top: 200px;
+    padding-bottom:200px;
+    padding-left: 40%;
+
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.icon_like{
+    margin-left: 100%;
+    margin-top: 0px;
+    color: #fff;
+  }
+  .icons_like::after{
+    margin-left: 100%;
+    margin-top: 0px;
+    color: red;
+  }
+
+.classfication{
+    margin-left: 20px;
+}
+.trailer{
+    padding-left: 15px;
+    padding-top: 20px;
+}
